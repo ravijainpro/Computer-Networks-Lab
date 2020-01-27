@@ -11,6 +11,10 @@ int len_redundant(int data[], int data_len) {
     return r;
 }
 
+int look_up(int to_return[], int i) {
+    
+}
+
 int *hamming_gen(int data[], int data_len) {
     int len_redundant=len_redundant(data,data_len);
     int *to_return=new int[data_len+len_redundant];
@@ -18,7 +22,9 @@ int *hamming_gen(int data[], int data_len) {
     for(int i=0; i<data_len+len_redundant; i++) {
         if(i%2==0) {
             count++;
-            //to continue later
+            to_return[pow(2,i)]=-1;
+            to_return[pow(2,i)]=look_up(to_return,i);
+            //To continue...
         }
     }
     
