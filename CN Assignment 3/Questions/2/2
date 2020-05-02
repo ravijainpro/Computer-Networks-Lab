@@ -1,0 +1,29 @@
+2. What are the key features of NS2 and what is used for ?
+Answer:
+
+NS2 stands for Network Simulator Version 2. It is an open-source event-driven simulator designed specifically for research in computer communication networks.
+
+The process of simulation is done by the following steps:
+    1. Topology Definition
+    2. Development of the model
+    3. Link Configuration
+    4. Execution
+    5. Analysis of the performance
+    6. Visualization
+
+Some of the features of NS2 are:
+    1. It can simulate both wireless and wired network.
+    2. It provides support to bunch of protocols like FTP, UDP, TCP, HTTP.
+    3. It is a Unix-based, discrete event simulator.
+    4. It uses the C++ programming language for functioning. (Slow to Compile but fast to execute)
+    5. There are contributions from third parties.
+	6. Uses TCL as its scripting language. (Slow to execute but fast Compilation)
+	7. Otcl: Object oriented support
+	8. Tclcl: C++ and otcl linkage
+
+There are various research and thesis topics in NS2, such as:
+    1. Optical Network
+    2. WSAN
+    3. Robotic Sensor Network
+    4. 5G Network
+    5. Spectrum Sensing

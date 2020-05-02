@@ -1,0 +1,19 @@
+4. Why aren’t the current nodes upgrading to IPv6 from IPv4?
+Answer:
+
+Reason 1: It's would be expensive to deploy.
+
+The internet is made up of millions of routers and switches. Those were initially designed to work with IPv4. Replacing or upgrading core hardware takes time and budget; Billions of old devices, home gateways, print servers, etc, are incompatible with the IPv6 protocol.
+
+Reason 2: NAT backed IPv4.
+
+By the time the IPv6 was developed, NAT was used all over the internet, extending the lifetime of the IPv4 protocol. NAT can be deployed incrementally at a low cost while also providing some basic security. 
+
+Reason 3: Compatibility issues.
+
+IPv6 protocol is incompatibile with the current IPv4 protocol. IPv6 does not provide a single, standardized solution to communicate with devices and systems that still run IPv4.
+
+Reason 4: No benefit of early adoption.
+
+There is no direct benefit of being an early adopter. Nobody will switch to IPv6 as long as none of their contacts is switching too.
+

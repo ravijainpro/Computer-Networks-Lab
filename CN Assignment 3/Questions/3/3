@@ -1,0 +1,78 @@
+3. Differences between NS2 and NS3.
+Answer:
+
+Application level Difference between NS2 and NS3:
+1.
+NS3 	-> NS3 can be act as the emulator that it can connect to the real world	
+NS2	-> NS2 can not be act as the emulator.
+
+2.
+NS3	-> Some of the NS2 models can be imported to NS3 	
+NS2	-> NS3 scripts can not run in NS2 environment
+
+
+Programming Language level Difference between Ns2 and NS3:
+1.
+NS3	-> NS3 is written using C++	
+NS2	-> NS2 is written with the help of TCL and C++.
+
+2. 
+NS3	-> Compilation time is not a matter 	
+NS2	-> C++ recompilation takes more time more than TCL so most of the scripts are written using TCL
+
+3.
+NS3 -> A Simulation script can be written in ns3	
+NS2 -> Simulation script is not possible with NS2
+
+4.
+NS3 -> Python is available for the scripting language 	
+NS2 -> Only TCL can be used as the scripting language
+
+
+Packets difference in NS2 and NS3:
+1.
+NS3	-> Information needed to send through the packet can be added at the header ,trailer, buffer ,etc.
+NS2	-> The header part of the NS2 includes all the information of header parts in the specified protocol
+
+2.
+NS3	-> NS3 frees the memory that used to store the packets.
+NS2	-> NS2 never reuse or re allocate the memory until it get terminated.
+
+3.
+NS3	-> The packet of ns3 consist of single buffer and small tags .
+NS2	-> The packet of ns2 has headers and data for payload. 
+
+
+File Format Difference between NS2 and NS3:
+1.
+NS3	-> .tr  files used for trace analysis
+NS2	-> . tr files used for trace parameters
+
+2.
+NS3	-> .XML files are used for network Animation 
+NS2	-> .nam files used for Network Animation
+
+3.
+NS3	-> .csv files used for gnu plot
+NS2	-> .xg files used for graph 
+
+
+Visualization Difference between NS2 and NS3:
+1.
+NS3 -> Python visualizer , Network Animator visualization is available
+NS2 -> Nam animator is available for visualization.
+
+
+Performance level difference between ns2 and ns3:
+1.
+NS3 -> Memory allocation is good
+NS2 -> Memory allocation is not good as NS3
+
+2.
+NS3 -> System prevents unnecessary parameters to be stored.
+NS2 -> Unnecessary parameters can not be prevented.
+
+3.
+NS3 -> Total computation is less when compared to NS2
+NS2 -> 	Total Computation time is high when compared to NS3
+

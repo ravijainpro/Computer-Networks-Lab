@@ -1,0 +1,6 @@
+Steps to execute the simulation:
+1. execute the below commands in the CLI (inorder & the pwd of shell to be where the files are present)
+	- ns 4.tcl
+	(Execute the simulation)
+	- awk -f 4.awk out.tr
+	(Shows No. of packets dropped, packets sent, etc..)
